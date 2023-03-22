@@ -3,6 +3,6 @@ rules:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_expectations_failed:
-    - se_puede_concentrar Not:UsesIf
-  then: no es necesario usar alternativa condicional en `se_puede_concentrar` ya que
-    podemos incluir la condición del `if` como parte de lo que retornemos
+    - can_focus Not:UsesIf
+  then: there is no need to use an `if` on `can_focus` since we can include the `if`
+    condition as part of what we return
