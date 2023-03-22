@@ -4,4 +4,4 @@ rules:
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     only_these_tests_failed:
     - Es necesario que filosofia lleve tilde para saber si la persona es peripatetica
-  then: no te olvides de la tilde en `"filosofía"` y las mayúsculas en `"Grecia"`
+  then: don't forget capitalization in `"Greece"`
