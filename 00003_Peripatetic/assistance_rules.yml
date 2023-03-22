@@ -3,5 +3,5 @@ rules:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     only_these_tests_failed:
-    - Es necesario que filosofia lleve tilde para saber si la persona es peripatetica
+    - Greece must be written with uppercase g in order to be peripatetic
   then: don't forget capitalization in `"Greece"`
