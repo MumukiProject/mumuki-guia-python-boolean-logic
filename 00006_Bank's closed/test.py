@@ -1,24 +1,19 @@
   
-  def test_un_lunes_feriado_a_las_14hs_el_banco_no_esta_abierto(self):
-    self.assertFalse(esta_abierto(True, "lunes", 14))
+  def test_monday_holiday_at_14_the_bank_is_not_open(self):
+    self.assertFalse(is_bank_open(True, "Monday", 14))
   
+  def test_wednesday_holiday_at_20_the_bank_is_not_open(self):
+    self.assertFalse(is_bank_open(True, "Wednesday", 20))
   
-  def test_un_miercoles_feriado_a_las_20hs_el_banco_no_esta_abierto(self):
-    self.assertFalse(esta_abierto(True, "miércoles", 20))
+  def test_thursday_at_13_the_bank_is_open(self):
+    self.assertTrue(is_bank_open(False, "Thursday", 13))
   
+  def test_saturday_at_11_the_bank_is_not_open(self):
+    self.assertFalse(is_bank_open(False, "Saturday", 11))
   
-  def test_un_jueves_corriente_a_las_13hs_el_banco_esta_abierto(self):
-    self.assertTrue(esta_abierto(False, "jueves", 13))
-  
-  
-  def test_un_sabado_corriente_a_las_11hs_el_banco_no_esta_abierto(self):
-    self.assertFalse(esta_abierto(False, "sábado", 11))
-  
-  
-  def test_un_domingo_corriente_a_las_19hs_el_banco_no_esta_abierto(self):
-    self.assertFalse(esta_abierto(False, "domingo", 19))
-  
-  
-  def test_un_martes_corriente_a_las_16hs_el_banco_no_esta_abierto(self):
-    self.assertFalse(esta_abierto(False, "martes", 16))
+  def test_monday_at_19_the_bank_is_not_open(self):
+    self.assertFalse(is_bank_open(False, "Monday", 19))
+    
+  def test_tuesday_at_16_the_bank_is_not_open(self):
+    self.assertFalse(is_bank_open(False, "Tuesday", 16))
   
