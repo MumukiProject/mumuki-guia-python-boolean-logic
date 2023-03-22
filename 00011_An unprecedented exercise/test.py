@@ -1,18 +1,19 @@
   
-  def test_se_puede_concentrar_te_95_true_es_verdadero(self):
-    self.assertTrue(se_puede_concentrar("té",95, True))
+  def test_can_focus_te_95_True_is_True(self):
+    self.assertTrue(can_focus("tea",95, True))
 
-  def test_se_puede_concentrar_té_100_true_es_verdadero(self):
-    self.assertTrue(se_puede_concentrar("té",100, True))
+  def test_can_focus_tea_100_True_is_True(self):
+    self.assertTrue(can_focus("tea",100, True))
 
-  def test_se_puede_concentrar_mate_80_true_es_verdadero(self):
-    self.assertTrue(se_puede_concentrar('mate', 80, True))
+  def test_can_focus_mate_80_True_is_True(self):
+    self.assertTrue(can_focus('mate', 80, True))
 
-  def test_se_puede_concentrar_mate_70_true_es_falso(self):
-    self.assertFalse(se_puede_concentrar('mate', 70, True))
+  def test_can_focus_mate_70_True_is_False(self):
+    self.assertFalse(can_focus('mate', 70, True))
 
-  def test_se_puede_concentrar_t_94_true_es_falso(self):
-    self.assertFalse(se_puede_concentrar("té",94, True))
+  def test_can_focus_tea_94_True_is_False(self):
+    self.assertFalse(can_focus("tea",94, True))
 
-  def test_se_puede_concentrar_té_95_false_es_falso(self):
-    self.assertFalse(se_puede_concentrar("té",95, False))
+  def test_can_focus_tea_95_False_is_False(self):
+    self.assertFalse(can_focus("tea",95, False))
+    
