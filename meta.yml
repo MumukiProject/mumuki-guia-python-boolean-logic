@@ -1,6 +1,6 @@
 ---
-name: Lógica booleana
-locale: es
+name: Boolean Logic
+locale: en
 type: learning
 beta: false
 teacher_info: ''
@@ -18,4 +18,4 @@ order:
 - 10
 - 11
 - 12
-private: false
+private: true
