@@ -1,1 +1,1 @@
-Como ya viste a lo largo de varios ejercicios, cuando programamos trabajamos con booleanos que representan valores de verdad. Podemos operar con ellos mediante lo que denominamos operadores lógicos, como la conjunción y la disyunción. ¡Vamos a aprender un poco más sobre ellos! :muscle:
+As you have already seen in several previous exercises, when programming we work with booleans that represent truth values. We can operate on them using logical operators, such as conjunction and disjunction. Let's learn a little more about them! :muscle:

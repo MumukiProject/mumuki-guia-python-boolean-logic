@@ -1,0 +1,1 @@
+Each of these functions represents **one of two possible states**: being an adult or being a minor. You can't be both at the same time, and you can't avoid belonging to either group. That's why we say they complement each other and together form the _universal set_. :milky_way:
