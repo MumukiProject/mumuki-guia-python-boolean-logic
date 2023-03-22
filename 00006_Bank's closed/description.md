@@ -5,6 +5,6 @@ We know that the bank is open on weekdays - except holidays - and we're within b
 These functions are already defined:
 
 * `within_banking_hours`: receives a time :clock10: (an hour o'clock that can go from 0 to 23) and tells us whether it is within the bank's attention slot.
-* `is_weekend`: receives a day and tells us if it is "Saturday" or "Sunday".
+* `is_weekend`: receives a day and tells us if it is `"Saturday"` or `"Sunday"`.
 
 > Define the function `is_weekday` and then use it to define `is_bank_open`.
