@@ -7,5 +7,5 @@ Copyright Jessica Saavedra, Franco Bulgarelli, Gustavo Trucco and contributors
 
 This content consists of voluntary contributions made by many
 individuals. For exact contribution history, see its revision history
-available at https://github.com/mumukiproject/mumuki-guia-python-logica-booleana and the AUTHORS.txt file.
+available at https://github.com/mumukiproject/mumuki-guia-python-boolean-logic and the AUTHORS.txt file.
 
