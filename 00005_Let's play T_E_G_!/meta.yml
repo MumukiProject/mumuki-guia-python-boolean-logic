@@ -12,4 +12,4 @@ choices: []
 goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   kind: last_query_matches
   regexp: gano(\W*True\W*,\W*31\W*)
-name: "¡Juguemos al T.E.G.!"
+name: Let's play T.E.G.!
