@@ -2,10 +2,25 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresFunction:es_mayor_de_edad
+  inspection: Declares:is_adult
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresFunction:es_menor_de_edad
+  inspection: DeclaresComputationWithArity1:is_adult
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: es_menor_de_edad
-  inspection: Uses:es_mayor_de_edad
+  binding: is_adult
+  inspection: Returns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:is_minor
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresComputationWithArity1:is_minor
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: is_minor
+  inspection: Returns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: is_minor
+  inspection: UsesNegation
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: is_minor
+  inspection: Calls:is_adult
