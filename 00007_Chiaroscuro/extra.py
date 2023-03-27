@@ -1,4 +1,4 @@
-colores_claros = ["blanco", "beige", "celeste", "rosa", "amarillo"]
+light_colors = ["white", "beige", "pink", "yellow", "sky-blue"]
 
-def es_tono_claro(color):
-  return color in colores_claros
+def is_light_tone(color):
+  return color in light_colors
