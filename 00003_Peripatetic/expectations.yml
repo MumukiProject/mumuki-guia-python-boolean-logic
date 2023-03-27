@@ -8,4 +8,4 @@ expectations:
   inspection: Except:DoesTypeTest
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresComputationWithArity1:3
+  inspection: DeclaresComputationWithArity3:is_peripatetic
