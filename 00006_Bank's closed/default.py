@@ -1,3 +1,3 @@
 def is_bank_open(is_holiday, day, hour):
   # ... write your solution here ...
-
+  return
