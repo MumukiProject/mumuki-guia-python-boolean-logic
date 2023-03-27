@@ -9,3 +9,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: DeclaresComputationWithArity3:is_peripatetic
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: is_peripatetic
+  inspection: UsesAnd
