@@ -1,10 +1,10 @@
-In Boolean logic, the behavior of an operator can be defined with a _truth table_, where **A** and **B** are the expressions or truth values operated on, and the symbol **^** represents the conjunction.
+In Boolean logic, the behavior of an operator can be defined with a _truth table_, where **A** and **B** are the expressions or truth values operated on, and the symbol **∧** represents the conjunction.
 
 <table class="table table-striped table-bordered table-condensed text-center">
   <tr>
 	<th class ="text-center" style="width: 75px">A</th>
 	<th class ="text-center" style="width: 75px">B</th>
-	<th class ="text-center" style="width: 100px">A ^ B</th>
+	<th class ="text-center" style="width: 100px">A ∧ B</th>
   </tr>
   <tr>
 	<td>True</td>
