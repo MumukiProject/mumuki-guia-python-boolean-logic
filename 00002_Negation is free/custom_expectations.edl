@@ -1,2 +1,2 @@
-expectation "`is_minor` must invoke `is_adult`, passing arguments to it, i.e. `not is_adult(age)` instead of `not is_adult`":
+expectation "`is_minor` must **invoke** `is_adult`, passing arguments to it, i.e. `not is_adult(age)` instead of `not is_adult`":
   within `is_minor` (! uses `is_adult` || calls `is_adult`) ;
