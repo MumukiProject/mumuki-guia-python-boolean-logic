@@ -23,4 +23,4 @@ expectations:
   inspection: UsesNegation
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: is_minor
-  inspection: Calls:is_adult
+  inspection: Uses:is_adult
