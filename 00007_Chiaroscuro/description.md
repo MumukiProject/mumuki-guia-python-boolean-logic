@@ -4,7 +4,7 @@ To achieve this, Umi asked us to define the function `has_contrast` which takes 
 
 We have already defined the function `is_light_tone` that takes a color as a parameter and returns if it is light:
 
-``` javascript
+```python
 ムis_light_tone('red')
 False
 
