@@ -4,7 +4,7 @@ Let's look at what the truth table of disjunction - `∨` -  should look like to
   <tr>
 	<th class ="text-center" style="width: 75px">A</th>
 	<th class ="text-center" style="width: 75px">B</th>
-	<th class ="text-center" style="width: 100px">A v B</th>
+	<th class ="text-center" style="width: 100px">A ∨ B</th>
   </tr>
   <tr>
 	<td>True</td>
