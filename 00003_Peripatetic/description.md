@@ -1,6 +1,6 @@
 Another operator you've already learned about is the logical conjunction (also called _and_), which is true only if the two expressions it operates on are true.
 
-We can chain several of them using the `and` operator and if any of them is false the whole expression will be false.
+We can chain several of them using the `and` operator - if any of them is false the whole expression will be false.
 
 For example, if you have the function...
 
