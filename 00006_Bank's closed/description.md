@@ -7,4 +7,11 @@ These functions are already defined:
 * :clock10: `within_banking_hours`: receives a time (an hour o'clock that can go from 0 to 23) and tells us whether it is within the bank's attention slot.
 * :calendar_spiral: `is_weekend`: receives a day and tells us if it is `"Saturday"` or `"Sunday"`.
 
-> Complete the definition of `is_weekday` and then use it to complete the definition of `is_bank_open`.
+> Complete the definition of `is_weekday` and then use it to complete the definition of `is_bank_open`, so that it can be invoked like this: 
+>
+> ```python
+> ムis_bank_open(True, "Monday", 14)
+> False # Bank is closed on holidays
+> ムis_bank_open(False, "Sunday", 9)
+> False # Bank is closed on weekends
+> ```
