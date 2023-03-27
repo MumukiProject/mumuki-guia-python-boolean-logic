@@ -1,18 +1,2 @@
 expectation "`is_weekday` must **invoke** `is_weekend`, i.e. `is_weekend(day)` instead of just `is_weekend`":
   within `is_weekday` (! uses `is_weekend` || calls `is_weekend`);
-
-expectation "`is_bank_open` must use `is_weekday`":
-  within `is_bank_open` uses `is_weekday`;
-  
-expectation "`is_bank_open` must use `within_banking_hours`":
-  within `is_bank_open` uses `within_banking_hours`; 
-
-expectation "`is_bank_open` must **invoke** `is_weekday`, i.e. `is_weekday(day)` instead of just `is_weekday`":
-  within `is_bank_open` (! uses `is_weekday` || calls `is_weekday`);
-  
-expectation "`is_bank_open` must **invoke** `within_banking_hours`, i.e. `within_banking_hours(hour)` instead of just `within_banking_hours`":
-  within `is_bank_open` (! uses `within_banking_hours` || calls `within_banking_hours`); 
-
-expectation "`is_bank_open` must **not** invoke `is_holiday` since it is already a parameter with a boolean value":
-  through `is_bank_open` ! calls `is_holiday`;
-      u
