@@ -1,4 +1,4 @@
-Let's look at what the truth table of disjunction should look like to compare with yours:
+Let's look at what the truth table of disjunction - `∨` -  should look like to compare with yours:
 
 <table class="table table-striped table-bordered table-condensed text-center">
   <tr>
