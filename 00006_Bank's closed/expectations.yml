@@ -17,4 +17,4 @@ expectations:
   inspection: Not:UsesIf
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: is_weekday
-  inspection: UsesNot
+  inspection: UsesNegation

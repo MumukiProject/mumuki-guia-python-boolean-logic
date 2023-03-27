@@ -15,4 +15,4 @@ expectation "`is_bank_open` must **invoke** `within_banking_hours`, i.e. `within
 
 expectation "`is_bank_open` must **not** invoke `is_holiday` since it is already a parameter with a boolean value":
   through `is_bank_open` ! calls `is_holiday`;
-      
+      u
