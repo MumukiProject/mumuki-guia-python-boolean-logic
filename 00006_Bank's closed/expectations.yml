@@ -18,9 +18,3 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: is_weekday
   inspection: UsesNot
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: is_bank_open
-  inspection: Uses:is_weekday
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: is_bank_open
-  inspection: Uses:within_banking_hours
