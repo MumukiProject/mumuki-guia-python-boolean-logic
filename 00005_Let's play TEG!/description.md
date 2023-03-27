@@ -24,4 +24,4 @@ def won(met_secret_goal, number_of_countries_conquered):
 >``` python
 ムwon(True, 31)
 ```
-> Based on these examples and the console, build - i.e. in a paper notebook - the truth table of the logical disjunction
+> Based on these examples and the console, build - :ledger: i.e. in a paper notebook - the truth table of the logical disjunction
