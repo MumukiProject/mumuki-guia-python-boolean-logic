@@ -1,6 +1,4 @@
-Umi is designing a web page and is focusing on the contrast of its components. :star_struck:
-
-To achieve this, Umi defined the function `is_light_tone` that takes a color as a parameter and returns if it is light:
+Umi is designing a web page and is focusing on the contrast of its components :star_struck:. To achieve this, Umi defined the function `is_light_tone` that takes a color as a parameter and returns if it is light:
 
 ```python
 ムis_light_tone('yellow')
