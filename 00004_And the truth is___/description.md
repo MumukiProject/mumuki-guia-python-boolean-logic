@@ -28,9 +28,9 @@ In Boolean logic, the behavior of an operator can be defined with a _truth table
   </tr>
 </table>
 
-In the world of logic these expressions are called _propositions_. But what things can be a proposition? :thought_balloon: They need only have a truth value, that is, any boolean expression can be one.
+In the world of logic these expressions are called _propositions_. But what things can be a proposition? :thought_balloon: Anything with a truth value! Thus, any boolean expression can be one.
 
-> To check it, test your function `is_peripatetic` in the console with the following values ​​and check if it behaves as in the table:
+> To check it, test your function `is_peripatetic` in the console with the following values and check if it behaves as in the table:
 >
 >``` python
 ムis_peripatetic("athletics", "Argentina", 10)
