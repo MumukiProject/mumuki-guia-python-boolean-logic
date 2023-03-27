@@ -2,7 +2,13 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresFunction:has_contrast
+  inspection: Declares:has_contrast
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: DeclaresComputationWithArity2:has_contrast
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: has_contrast
+  inspection: Returns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: has_contrast
+  inspection: Uses:is_light_tone
