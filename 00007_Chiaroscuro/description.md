@@ -13,5 +13,5 @@ True
 > 
 > ```python
 > ムhas_contrast('white', 'yellow')
-> False # because both are ligth
+> False # because both are light
 > ```
