@@ -1,4 +1,4 @@
-Both `is_adult` and `is_minor` take an `age` as argument. Those who are 18 years or older are adults. The rest are minors. 👶.
+Both `is_adult` and `is_minor` take an `age` as argument - those who are 18 years or older are adults. The rest are minors. 👶.
 
 You don't have to define them all at once - you can solve this exercise _iteratively_ :wink::
 
