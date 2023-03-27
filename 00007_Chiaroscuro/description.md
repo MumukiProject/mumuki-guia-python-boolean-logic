@@ -10,6 +10,6 @@ False
 True
 ```
 
-> :art: Now it's your turn! Define the function `has_contrast` which takes as arguments the font color and the background color of the page and returns whether the page color palette has contrast. 
+> :art: Now it's your turn! Define the function `has_contrast` which takes as arguments the _font color_ and the _background color_ of the page and returns whether the page color palette has contrast. 
 > 
-> 🆚 For the page to have contrast, it must have a light background and dark font, or have a light font and a dark background. :relieved:
+> 🆚 For the page to have contrast, it must have a light _background_ and dark _font_, or have a light _font_ and a dark _background_. :relieved:
