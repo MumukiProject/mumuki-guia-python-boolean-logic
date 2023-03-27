@@ -1,2 +1,2 @@
 expectation "`is_minor` invokes `is_adult`":
-  through `is_minor` uses `is_adult`;
+  through `is_minor` ! uses `is_adult`;
