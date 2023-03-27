@@ -9,7 +9,7 @@ For example, if you have the function...
 
 ...it's enough that a singer has not recorded a DVD to not be considered prolific, even if they have edited more than 10 CDs and given more than 25 recitals. :guitar:
 
-> Define a function `is_peripatetic` that takes the area in which a person works, their country of origin and the number of kilometers they walk per day. A person is peripatetic when they work in philosophy, their country of origin is Greece and likes to walk (he walks more than 2 kilometers per day). For example:
+> Define a function `is_peripatetic` that takes the area in which a person works, their country of origin and the number of kilometers they walk per day. A person is peripatetic when they work in philosophy, their country of origin is Greece and walks more than 2 kilometers per day. For example:
 >
 > ```python
 > ムis_peripatetic("philosophy", "Greece", 5)
