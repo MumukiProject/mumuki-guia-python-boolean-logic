@@ -7,4 +7,4 @@ These functions are already defined:
 * :clock10: `within_banking_hours`: receives a time (an hour o'clock that can go from 0 to 23) and tells us whether it is within the bank's attention slot.
 * :calendar_spiral: `is_weekend`: receives a day and tells us if it is `"Saturday"` or `"Sunday"`.
 
-> Define the function `is_weekday` and then use it to define `is_bank_open`.
+> Define the function `is_weekday` and then use it to complete the definition of `is_bank_open`.
