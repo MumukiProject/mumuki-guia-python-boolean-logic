@@ -1,6 +1,6 @@
-Has it ever happened to you that you went to the bank to do something and then found that it was closed? To help clueless people, we're going to develop a function that tells whether the bank is open.
+:bank: Has it ever happened to you that you went to the bank to do something and then found that it was closed? To help clueless people, we're going to develop a function that tells whether the bank is open.
 
-We know that the bank is open on weekdays - except holidays - and within bank opening hours.
+We know that the bank is open on weekdays - except holidays - and within bank opening hours. :alarm_clock: 
 
 These functions are already defined:
 
