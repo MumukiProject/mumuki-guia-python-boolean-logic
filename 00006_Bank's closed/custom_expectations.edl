@@ -1,2 +1,8 @@
 expectation "`is_weekday` must **invoke** `is_weekend`, i.e. `is_weekend(day)` instead of just `is_weekend`":
   within `is_weekday` (! uses `is_weekend` || calls `is_weekend`);
+
+expectation "`is_bank_open` must use `is_weekday`":
+  within `is_bank_open` uses `is_weekday`;
+  
+expectation "`is_bank_open` must use `within_banking_hours`":
+  within `is_bank_open` uses `within_banking_hours`; 
