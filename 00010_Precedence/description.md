@@ -9,8 +9,8 @@ Just as in mathematics, when logical operators are used, expressions are evaluat
 For example, look at this function that tells whether Umi will use a credit card :credit_card::
 
 ```python
-def pays_with_credit_card(interest_free, card, cash_available):
-  return interest_free and installments_available(card) >= 3 or cash_available < 100
+def pays_with_credit_card(interest_charged, card, cash_available):
+  return not interest_charged and installments_available(card) >= 3 or cash_available < 100
 ```
 
 How will this definition be interpreted? Will Umi use credit cards only when payment is interest-free? Or is it enough that Umi has less than $100 in cash?
