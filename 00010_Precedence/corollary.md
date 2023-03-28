@@ -45,7 +45,7 @@ Did you figure out the precedence of boolean operations? :thinking: Just in case
   </tr>
 </table>
 
-In this table, the precedence goes from highest to lowest, that is, priority 1 is the highest and priority 7 is the lowest. For example, if we do...
+In this table, the precedence goes from highest to lowest, that is, priority 1 is the highest and priority 7 is the lowest :dizzy_face:. For example, if we do...
 
 ``` python
 8 + 2 * 3 < 15 and not 5 == 4
