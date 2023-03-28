@@ -6,3 +6,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: DeclaresComputationWithArity3:can_ride
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: can_ride
+  inspection: UsesLogic
