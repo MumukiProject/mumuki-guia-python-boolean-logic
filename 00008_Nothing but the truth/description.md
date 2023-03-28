@@ -1,8 +1,6 @@
 Now let's think about what the truth table that represents the behavior of the function you just wrote would look like.
  
-The statement is `is_light_tone`, and the truth value it carries will depend on each color you are evaluating.
-
-The final boolean will result from operating on these colors by `has_contrast`:
+The statement is `is_light_tone`, and the truth value it carries will depend on each color you are evaluating. The final boolean will result from operating on these colors by `has_contrast`:
 
 <table class="table table-striped table-bordered table-condensed text-center">
   <tr>
