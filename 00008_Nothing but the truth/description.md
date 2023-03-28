@@ -30,7 +30,7 @@ The statement is `is_light_tone`, and the truth value it carries will depend on 
   </tr>
 </table>
 
-> Test your `has_contrast` function with the following values ​​and see if it behaves like the table:
+> Test your `has_contrast` function with the following values and verify if it behaves like the table:
 >
 >``` python
 ムhas_contrast("yellow", "beige")
