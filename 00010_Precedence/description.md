@@ -13,9 +13,9 @@ def pays_with_credit_card(interest_free, card, cash_available):
   return interest_free and installments_available(card) >= 3 or cash_available < 100
 ```
 
-How will this definition be interpreted? Will Umi use credit cards only when payment is interest-free? Or is it enough that Umi have less than $100 in cash? 
+How will this definition be interpreted? Will Umi use credit cards only when payment is interest-free? Or is it enough that Umi has less than $100 in cash?
 
-> Let's try to figure out what the precedence of boolean operations is. Here are some test examples:
+> Let's find out! Try to figure out what the precedence of boolean operations is. Here are some test examples:
 >
 >``` python
 ムpays_with_credit_card(True, "visa", 320)
