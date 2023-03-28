@@ -2,7 +2,7 @@ Did you figure out the precedence of boolean operations? :thinking: Just in case
 
 <table class="table table-striped table-bordered table-condensed text-center">
   <tr>
-	<th class ="text-center" style="width: 10px">Priority</th>
+	<th class ="text-center" style="width: 10px">Precedence</th>
 	<th class ="text-center" style="width: 75px">Operation</th>
 	<th class ="text-center" style="width: 75px">Description</th>
   </tr>
