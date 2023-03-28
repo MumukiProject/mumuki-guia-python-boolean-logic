@@ -1,7 +1,7 @@
-colores_claros = ["blanco", "beige", "celeste", "rosa", "amarillo"]
+light_colors = ["white", "beige", "pink", "yellow", "skyblue"]
 
-def es_tono_claro(color):
-  return color in colores_claros
+def is_light_tone(color):
+  return color in light_colors
   
-def tiene_contraste(letra, fondo):
-  return es_tono_claro(letra) != es_tono_claro(fondo)
+def has_contrast(font_color, background_color):
+  return is_light_tone(font_color) != is_light_tone(background_color)  
