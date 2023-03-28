@@ -1,5 +1,11 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:xor
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresComputationWithArity2:xor
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: xor
-  inspection: HasBinding
+  inspection: Not:UsesBitwiseXor
