@@ -1,7 +1,7 @@
 When a mathematical expression consists of multiple operators, we know that multiplications and divisions are performed before additions and subtractions:
 
 ```python
-5 * 3 + 8 / 4 - 3 = 14
+5 * 3 + 8 / 4 - 3 == 14
 ```
 
 Just as in mathematics, when logical operators are used, expressions are evaluated in a certain order called _precedence_. How's that? :thinking:
