@@ -16,4 +16,7 @@
 
   def test_can_focus_tea_95_False_is_False(self):
     self.assertFalse(can_focus("tea", 95, False))
+
+  def test_can_focus_mate_80_False_is_False(self):
+    self.assertFalse(can_focus("mate", 80, False))    
     
