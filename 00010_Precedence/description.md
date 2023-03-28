@@ -6,7 +6,7 @@ When a mathematical expression consists of multiple operators, we know that mult
 
 Just as in mathematics, when logical operators are used, expressions are evaluated in a certain order called _precedence_. How's that? :thinking:
 
-:credit_card: For example, look at this function that tells whether Umi will use a credit card:
+For example, look at this function that tells whether Umi will use a credit card :credit_card::
 
 ```python
 def pays_with_credit_card(interest_free, card, cash_available):
