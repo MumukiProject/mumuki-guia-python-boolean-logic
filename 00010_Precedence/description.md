@@ -31,6 +31,4 @@ def pays_with_credit_card(interest_charged, card, cash_available):
 ムpays_with_credit_card(True, "mastercard", 32)
 ```
 >
-> However, don't forget you can test as many expressions as you want.
->
-> When you're done, type `done()`.
+> However, don't forget you can test as many expressions as you want. When you're done, type `done()`.
