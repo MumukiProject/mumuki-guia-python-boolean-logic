@@ -1,3 +1,5 @@
+Oops! That means that when short of cash, Umi will use credit cards even if they carry interests. :money_with_wings: 
+
 Did you figure out the precedence of boolean operations? :thinking: Just in case, here's a table with their precedence and some operations we've seen (and others we haven't):
 
 <table class="table table-striped table-bordered table-condensed text-center">
