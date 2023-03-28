@@ -9,27 +9,28 @@ Just as in mathematics, when logical operators are used, expressions are evaluat
 For example, look at this function that tells whether Umi will use a credit card:
 
 ```python
-def pays_with_card(interest_charged, card, cash_available):
+def ムpays_with_credit_card(interest_charged, card, cash_available):
   return not interest_charged and installments(card) >= 3 or cash_available < 100
 ```
 
 > Let's try to figure out what the precedence of boolean operations is. Here are some test examples:
- >
+>
 >``` python
-ムpays_with_card(True, "visa", 320)
+ムpays_with_credit_card(True, "visa", 320)
 ```
 >
 >``` python
-ムpays_with_card(False, "visa", 80)
+ムpays_with_credit_card(False, "visa", 80)
 ```
 >
 >``` python
-ムpays_with_card(True, "mastercard", 215)
+ムpays_with_credit_card(True, "mastercard", 215)
 ```
 >
 >``` python
-ムpays_with_card(True, "mastercard", 32)
+ムpays_with_credit_card(True, "mastercard", 32)
 ```
+>
 > However, don't forget you can test as many expressions as you want.
 >
 > When you're done, type `done()`.
