@@ -1,12 +1,11 @@
-def listo(): 
+def done(): 
   pass
 
-def cuotas(tarjeta):
+def installments_available(card):
   return {
     'visa': 6,
     'mastercard': 2,
-  }.get(tarjeta, 1)
+  }.get(card, 1)
 
-def paga_con_tarjeta(se_cobra_interes, tarjeta, efectivo_disponible):
-  return not se_cobra_interes and cuotas(tarjeta) >= 3 or efectivo_disponible < 100
-
+def pays_with_credit_card(interest_charged, card, cash_available):
+  return not interest_charged and installments_available(card) >= 3 or cash_available < 100

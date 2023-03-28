@@ -10,7 +10,7 @@ For example, look at this function that tells whether Umi will use a credit card
 
 ```python
 def pays_with_credit_card(interest_charged, card, cash_available):
-  return not interest_charged and installments(card) >= 3 or cash_available < 100
+  return not interest_charged and installments_available(card) >= 3 or cash_available < 100
 ```
 
 > Let's try to figure out what the precedence of boolean operations is. Here are some test examples:
