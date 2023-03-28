@@ -9,7 +9,7 @@ Just as in mathematics, when logical operators are used, expressions are evaluat
 For example, look at this function that tells whether Umi will use a credit card:
 
 ```python
-def ムpays_with_credit_card(interest_charged, card, cash_available):
+def pays_with_credit_card(interest_charged, card, cash_available):
   return not interest_charged and installments(card) >= 3 or cash_available < 100
 ```
 
