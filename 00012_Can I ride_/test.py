@@ -1,4 +1,4 @@
-class foo:    
+
   def test_someone_who_is_1__DOT__5_m_and_is_not_accompanied_by_an_adult_and_has_no_hearth_conditions_can_ride(self):
     self.assertTrue(can_ride(1.5, False, False))
 
