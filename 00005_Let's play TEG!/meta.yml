@@ -9,7 +9,7 @@ teacher_info: ''
 manual_evaluation: false
 progressive_expectations: false
 choices: []
-goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+goal:
   kind: last_query_matches
   regexp: won(\W*True\W*,\W*31\W*)
 name: Let's play TEG!

@@ -1,7 +1,6 @@
 ---
 rules:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     only_these_tests_failed:
     - Greece must be written with uppercase g in order to be peripatetic
   then: don't forget capitalization in `"Greece"`
